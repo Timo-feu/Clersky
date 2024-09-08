@@ -1,0 +1,395 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Noto Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.header{
+    background-color: #163A24;
+    color: #FBFAF7;
+}
+
+.conteiner{
+    min-width: 1220px;
+    padding-left: 40px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px 20px 120px;    
+
+}
+
+.header_link{
+    color: #FBFAF7;
+   
+}
+
+.header__butoms{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.btn{
+    background-color: #198C36;
+    padding: 15px 25px;
+    border-radius: 160px;
+}
+
+.first_section{
+    background-color: #163A24;
+    height: calc(100vh - 98px);
+    background-image: url(../images/first_section.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.first_section__textblock{
+    color: #FBFAF7;
+    max-width: 600px;
+    padding: 120px 0px 0px 50px;
+    max-height: 300px;
+}
+
+.section_title{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 120px;
+    margin-left: 130px;
+    font-weight: 900;
+}
+
+.section_sub-title{
+    font-size: 18px;
+    margin-left: 130px;
+    font-weight: 400;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.second{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.img1{
+    margin-left: 278px;
+    margin-right: 720px;
+}
+
+.container{
+    color: #FBFAF7;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 500;
+    height: 800px;
+    margin-left: 80px;
+}
+
+.sec_cont1{
+    color: #FBFAF7;
+    margin-left: 1000px;
+    margin-top: -300px;
+}
+
+.sec_cont_textblock{
+    color: #163A24;
+    font-size: 48px;
+    font-weight: 900;
+    margin-left: 100px;
+}
+
+.sec_cont_textblock1{
+    color: #163A24;
+    font-size: 18px;
+    font-weight: 00;
+    line-height: 27px;
+    text-align: left;
+    margin-left: 100px;
+
+}
+
+.container2{
+    color: #FBFAF7;
+    width: 800px;
+    height: 300px;
+    top: 509.55px;
+    left: 130px;
+    margin-left: 80px;
+    padding-top: 100px;
+}
+
+.sec_cont2{
+    width: 500;
+    height: 200px;
+    left: 98.34px;
+    padding: 150px 100px 17.05px 150px;
+}
+
+.sec_cont_textblock2{
+    color: #163A24;
+    font-size: 48px;
+    font-weight: 900;
+    margin-left: 50px;
+}
+
+.sec_cont_textblock3{
+    color: #163A24;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-left: 50px;
+}
+
+.layer1{
+    margin-top: -300px;
+    margin-left: 1050px;
+}
+
+.container3{
+    color: #FBFAF7;
+    height: 400;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.sec_cont_textblock4{
+    color: #163A24;
+    font-family: Recoleta;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.cont3_butoms{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    height: 80px;
+    margin-left: 550px;
+}
+
+.sect3{
+    height: 570px;
+    background-color: #163A24;
+    padding-top: 70px;
+}
+
+.sec3_textbox1{
+    color: #FBFAF7;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    height: 60px;
+    line-height: 60px; 
+}
+
+.sec3_cont1{
+    width: 300px;
+    margin-top: 200px;
+    margin-left: 270px;
+    
+}
+
+.frame{
+    margin-left: 120px;
+}
+
+.sec3_cont1_text1{
+    color: #FBFAF7;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.sec3_cont1_text2{
+    color: #FBFAF7;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.sec3_cont2{
+    width: 200px;
+    margin: -220px 0px 0px 400px;
+    height: 500px;
+}
+
+.frame1{
+    margin-left: 70px;
+}
+
+.sec3_cont2_text1{
+    color: #FBFAF7;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    margin: 20px -15px 0px 0px;
+
+}
+
+.sec3_cont2_text2{
+    color: #FBFAF7;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+}
+
+.sec3_cont3{
+    height: 400px;
+    margin: -250px 0px 0px 200px;
+    width: 450px;
+}
+
+.frame2{
+    margin-left: 200px;
+}
+
+.sec3_cont3_text1{
+    color: #FBFAF7;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.sec3_cont3_text2{
+    color: #FBFAF7;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.sec3_cont4{
+    height: 250px;
+    width: 700px;
+    margin: -390px 0px 0px 550px;
+}
+
+.frame3{
+    margin-left: 150px;
+}
+
+.sec3_cont4_text1{
+    color: #FBFAF7;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 300px;
+}
+
+.sec3_cont4_text2{
+    color: #FBFAF7;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 300px;
+}
+
+.sect4_conteiner4{
+    height: 700px;
+    width: 720px;
+}
+
+.sec4_cont1{
+    width: 1000px;
+    height: 500px;
+    margin-left: 300px;
+
+}
+
+.sec4_cont1_textbox1{
+    color: #163A24;
+    font-size: 48px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.sec4_cont1_textbox2{
+    color:#163A24;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    margin-right: 220px;
+}
+
+.fon{
+    margin-left: 125px;
+    margin-top: -300px;
+}
+
+.sect5{
+    height: 800px;
+    width: 1080px;
+}
+
+.sect5_cont1{
+    margin: -500px 600px 0px 0px;
+    width: 800px;
+    height: 600px;
+}
+
+
+
+.foto2{
+    margin: 1100px 0px 0px 1100px;
+}
+
+.sect5_cont1_textbox1{
+    color: #163A24;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 54px;
+    margin: 200px 500px;
+    width: 400px;
+    height: 108px;
+}
+
+.sect5_cont1_textbox2{
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    width: 379px;
+    height: 81px;
+    margin-left: 500px;
+    margin-top: -160px;
+}
+
